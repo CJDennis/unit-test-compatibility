@@ -1,0 +1,19 @@
+coverage:
+  status:
+    project:
+      default:
+        target: 100%
+        threshold: null
+      unittests-codeception:
+        flags: unittests-codeception
+        target: 66%
+      unittests-phpunit:
+        flags: unittests-phpunit
+        target: 60%
+flags:
+  unittests-codeception:
+    paths:
+      - src/
+  unittests-phpunit:
+    paths:
+      - src/
