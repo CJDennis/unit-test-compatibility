@@ -4,16 +4,16 @@ coverage:
       default:
         target: 100%
         threshold: null
-      unittests-codeception:
-        flags: unittests-codeception
+      unittests_codeception:
+        flags: unittests_codeception
         target: 66%
-      unittests-phpunit:
-        flags: unittests-phpunit
+      unittests_phpunit:
+        flags: unittests_phpunit
         target: 60%
 flags:
-  unittests-codeception:
+  unittests_codeception:
     paths:
       - src/
-  unittests-phpunit:
+  unittests_phpunit:
     paths:
       - src/
