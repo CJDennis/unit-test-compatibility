@@ -1,0 +1,23 @@
+{
+    "name": "cjdennis/unit-test-compatibility",
+    "require": {},
+    "require-dev": {
+        "codeception/codeception": "^3.1",
+        "infection/infection": "^0.14.2"
+    },
+    "type": "library",
+    "autoload": {
+        "psr-4": {"CJDennis\\UnitTestCompatibility\\": "src/CJDennis/UnitTestCompatibility/"}
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CJDennis\\UnitTestCompatibility\\": "tests-common/unit/CJDennis/UnitTestCompatibility/",
+            "CJDennis\\UnitTestCompatibility\\Codeception\\": "tests-codeception/unit/CJDennis/UnitTestCompatibility/Codeception/",
+            "CJDennis\\UnitTestCompatibility\\PHPUnit\\": "tests-phpunit/unit/CJDennis/UnitTestCompatibility/PHPUnit/"
+        }
+    },
+    "license": "MIT",
+    "description": "Compatibility wrappers for PHPUnit and Codeception",
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}
